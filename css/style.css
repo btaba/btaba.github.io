@@ -931,9 +931,9 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: #ffffff;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg.jpg");
+		/*background-image: url("images/overlay.png"), url("../images/bg.jpg");*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -944,15 +944,15 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 20%;
 	}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #aaaaaa;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #aaaaaa;
 		}
 
 		#header h1 {
@@ -975,7 +975,7 @@
 		padding: 0 4em 6em 0;
 		position: fixed;
 		text-align: right;
-		width: 35%;
+		width: 20%;
 	}
 
 		#footer .icons {
@@ -983,11 +983,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(100, 100, 100, 0.4);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(100, 100, 100, 0.4);
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -1015,7 +1015,7 @@
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 20%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
